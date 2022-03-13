@@ -13847,7 +13847,7 @@
 "The pale glow on the unlit part of a crescent Moon is light reflected from Earth.",
 "The solar system is 4.6 billion years old and 99.9% of its mass is contained in the Sun.",
 "The Minor Planet Center is responsible for the designation of minor bodies in the solar system: minor planets; comets; and natural satellites.",
-"Polaris is a star in the northern constellation of Ursa Minor and is commonly called the North Star or Pole Star".,
+"Polaris is a star in the northern constellation of Ursa Minor and is commonly called the North Star or Pole Star",
 "A plage is a bright region in the chromosphere of the Sun, typically found in and around active regions. The term is poetically taken from the French word for beach.",
 "The next total solar eclipse visible from North America occurs on April 8, 2024.",
 "Collimation is the process of aligning all components in a telescope to bring light to its best focus.",
