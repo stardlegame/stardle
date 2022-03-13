@@ -13688,7 +13688,7 @@
                               n = e.isWin,
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Canuckle ".concat(s - 235);
+                              l = "Stardle ".concat(s - 235);
                             (l += " ".concat(n ? t : "X", "/").concat(6)),
                               o && (l += "*");
                             var d = "";
@@ -13701,17 +13701,17 @@
                                       switch (e) {
                                         case Ma:
                                           a = (function (e) {
-                                            return e ? "??" : "??";
+                                            return e ? "🟧" : "🟦";
                                           })(i);
                                           break;
                                         case Ia:
                                           a = (function (e) {
-                                            return e ? "??" : "??";
+                                            return e ? "🟦" : "🟨";
                                           })(i);
                                           break;
                                         case Oa:
                                           a = (function (e) {
-                                            return e ? "?" : "?";
+                                            return e ? "⬛" : "⬜";
                                           })(r);
                                       }
                                       d += a;
@@ -13773,8 +13773,8 @@
                 "", /*polar*/
                 "", /*bison*/
                 "The stars belong to everyone   is a book by Helen Sawyer Hogg.",
-                "Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006 123456789 123456789 123456789 123465798 123456789 132465789 13456789 123456789.",
-             "", /*curds*/
+                "Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006.",
+             "next funfact", /*curds*/
                 "", /*foxes*/
                 "", /*spiel*/
                 "", /*camps*/
