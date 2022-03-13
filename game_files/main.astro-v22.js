@@ -1594,7 +1594,7 @@
         "frame",
         "terry", /* Game 0 */
         "canoe", /* START OF CANUCKLE - FEB 10, 2022 */
-        "stars", /* FEB 11 */
+        "alien", /* FEB 11 */
         "inuit", /* FEB 12 */
         "plaid", /* FEB 13 */
         "igloo", /* FEB 14 */
@@ -12680,7 +12680,7 @@
         .concat(1e3, ";\n  }\n  #system-toaster {\n    z-index: ")
         .concat(
           4e3,
-          ';\n  }\n\n  #game {\n    width: 100%;\n    max-width: var(--game-max-width);\n    margin: 0 auto;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n  }\n  header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: var(--header-height);\n    color: var(--color-tone-1);\n    border-bottom: 1px solid var(--color-tone-4);\n  }\n  header .title {\n    font-weight: 700;\n    font-size: 36px;\n    letter-spacing: 0.2rem;\n    text-transform: uppercase;\n    text-align: center;\n    position: absolute;\n    left: 0;\n    right: 0;\n    pointer-events: none;\n  }\n\n  @media (max-width: 360px) {\n    header .title {\n      font-size: 22px;\n      letter-spacing: 0.1rem;\n    }\n  }\n\n  #board-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-grow: 1;\n    overflow: hidden;\n  }\n  #board {\n    display: grid;\n    grid-template-rows: repeat(6, 1fr);\n    grid-gap: 5px;\n    padding:10px;\n    box-sizing: border-box;\n  }\n  button.icon {\n    background: none;\n    border: none;\n    cursor: pointer;\n    padding: 0 4px;\n  }\n\n  #debug-tools {\n    position: absolute;\n    bottom: 0;\n  }\n\n  </style>\n  <game-theme-manager>\n    <div id="game">\n      <header>\n        <div class="menu">\n          <button id="help-button" class="icon" aria-label="help">\n            <game-icon icon="help"></game-icon>\n          </button>\n        </div>\n        <div class="title">\n         CANUCKLE\n        </div>\n        <div class="menu">\n          <button id="statistics-button" class="icon" aria-label="statistics">\n            <game-icon icon="statistics"></game-icon>\n          </button>\n          <button id="settings-button" class="icon" aria-label="settings">\n            <game-icon icon="settings"></game-icon>\n          </button>\n        </div>\n      </header>\n        <div id="board-container">\n          <div id="board"></div>\n        </div>\n        <game-keyboard></game-keyboard>\n        <game-modal></game-modal>\n        <game-page></game-page>\n        <div class="toaster" id="game-toaster"></div>\n        <div class="toaster" id="system-toaster"></div>\n    </div>\n  </game-theme-manager>\n  <div id="debug-tools"></div>\n'
+          ';\n  }\n\n  #game {\n    width: 100%;\n    max-width: var(--game-max-width);\n    margin: 0 auto;\n    height: 100%;\n    display: flex;\n    flex-direction: column;\n  }\n  header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    height: var(--header-height);\n    color: var(--color-tone-1);\n    border-bottom: 1px solid var(--color-tone-4);\n  }\n  header .title {\n    font-weight: 700;\n    font-size: 36px;\n    letter-spacing: 0.2rem;\n    text-transform: uppercase;\n    text-align: center;\n    position: absolute;\n    left: 0;\n    right: 0;\n    pointer-events: none;\n  }\n\n  @media (max-width: 360px) {\n    header .title {\n      font-size: 22px;\n      letter-spacing: 0.1rem;\n    }\n  }\n\n  #board-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-grow: 1;\n    overflow: hidden;\n  }\n  #board {\n    display: grid;\n    grid-template-rows: repeat(6, 1fr);\n    grid-gap: 5px;\n    padding:10px;\n    box-sizing: border-box;\n  }\n  button.icon {\n    background: none;\n    border: none;\n    cursor: pointer;\n    padding: 0 4px;\n  }\n\n  #debug-tools {\n    position: absolute;\n    bottom: 0;\n  }\n\n  </style>\n  <game-theme-manager>\n    <div id="game">\n      <header>\n        <div class="menu">\n          <button id="help-button" class="icon" aria-label="help">\n            <game-icon icon="help"></game-icon>\n          </button>\n        </div>\n        <div class="title">\n         STARDLE\n        </div>\n        <div class="menu">\n          <button id="statistics-button" class="icon" aria-label="statistics">\n            <game-icon icon="statistics"></game-icon>\n          </button>\n          <button id="settings-button" class="icon" aria-label="settings">\n            <game-icon icon="settings"></game-icon>\n          </button>\n        </div>\n      </header>\n        <div id="board-container">\n          <div id="board"></div>\n        </div>\n        <game-keyboard></game-keyboard>\n        <game-modal></game-modal>\n        <game-page></game-page>\n        <div class="toaster" id="game-toaster"></div>\n        <div class="toaster" id="system-toaster"></div>\n    </div>\n  </game-theme-manager>\n  <div id="debug-tools"></div>\n'
         );
     var Qa = document.createElement("template");
     Qa.innerHTML =
@@ -13585,7 +13585,7 @@
       '\n  <div class="funFact"> <h1>FUN FACT</h1> </div>\n';
     var Is = document.createElement("template");
     Is.innerHTML =
-      '\n  <div class="countdown">\n    <h1>Next CANUCKLE</h1>\n    <div id="timer">\n      <div class="statistic-container">\n        <div class="statistic timer">\n          <countdown-timer></countdown-timer>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class="share">\n    <button id="share-button">\n      Share <game-icon icon="share"></game-icon>\n    </button>\n  </div>\n';
+      '\n  <div class="countdown">\n    <h1>Next STARDLE</h1>\n    <div id="timer">\n      <div class="statistic-container">\n        <div class="statistic timer">\n          <countdown-timer></countdown-timer>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class="share">\n    <button id="share-button">\n      Share <game-icon icon="share"></game-icon>\n    </button>\n  </div>\n';
     var Ms = {
         currentStreak: "Current Streak",
         maxStreak: "Max Streak",
@@ -13772,33 +13772,54 @@
                 "", /*yukon*/
                 "", /*polar*/
                 "", /*bison*/
-                "", /*tower*/
-                "", /*bears*/
-                "", /*leafs*/
-                "", /*wheat*/
-                "", /*parks*/
-                "", /*kayak*/
-                "", /*moose*/
-                "", /*pride*/
-                "", /*rocky*/
-                "", /*fundy*/
-                "", /*cabin*/
-                "", /*beers*/
-                "", /*parka*/
-                "", /*rinks*/
-                "", /*fries*/
-                "", /*coast*/
-                "", /*eagle*/
-                "", /*phone*/
-                "", /*birch*/
-                "", /*penny*/
-                "", /*dairy*/
-                "", /*skate*/
-                "", /*farms*/
-                "", /*river*/
-                "", /*sport*/
-                "", /*geese*/
-                "", /*curds*/
+                "'The stars belong to everyone' is a book by Helen Sawyer Hogg, an American-Canadian astronomer who pioneered research into globular clusters and variable stars.",
+                "Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006.",
+"'Clear skies' is a common salutation among amateur astronomers.",
+"Magnification power of a telescope is determined by dividing the focal length of the telescope by the focal length of the eyepiece.",
+"The traditional name Mizar derives from Arabic meaning 'apron, wrapper, covering, cover'.",
+"Ariel is the fourth-largest of the 27 known moons of Uranus.",
+"The Belt of Venus is an atmospheric phenomenon visible shortly before sunrise or after sunset, during civil twilight. It is a pinkish glow extending roughly 10-20° above the horizon.",
+"A lunar month is the time between two successive syzygies of the same type: new moons or full moons.",
+"Rigel is a blue supergiant star in the constellation of Orion, approximately 860 light-years from Earth.",
+"The Milky Way gets its name from a Greek myth about the goddess Hera who sprayed milk across the sky.",
+"Deneb is the northernmost star in the famous Summer Triangle, a prominent asterism visible in summer and autumn months.",
+"Earth's axial precession is a cyclic wobbling in the orientation of its axis of rotation with a period of 25,772 years.",
+"A famous captain once said 'Space, the final frontier'.",
+"Venus rotates backwards compared to the other planets and it rotates very slowly. A day on Venus (243 days) lasts longer than it takes the planet to orbit around the Sun (225 days).",
+"Averted vision is a technique for viewing faint objects using peripheral vision - not looking directly at an object, but looking a little off to the side.",
+"Baily's beads, an arc of bright spots seen during total and annular eclipses of the Sun are named Francis Baily, who called attention to them after seeing them during an annular eclipse on May 15, 1836.",
+"Good quality telescopes and mounts have knobs instead of bolts to make adjustments.",
+"The zodiacal light is a faint, roughly triangular glow visible above the sunrise or sunset point caused by sunlight scattered by interplanetary dust in the inner solar system.",
+"Pyxis is a small and faint constellation in the southern sky and is home to three stars with confirmed planetary systems.",
+"Dwarf stars have relatively small size and low luminosity, and come in many colors: brown, orange, red, white and yellow.",
+"Titan, the largest moon of Saturn, is the only moon known to have a dense atmosphere, and is the only known object in space other than Earth on which clear evidence of stable bodies of surface liquid has been found.",
+"A dark frame is an image taken with no light falling on the image sensor and is used to to remove unwanted noise in deep-sky astro images.",
+"Orion is one of the oldest recognized constellations in the world. It contains several famous stars and nebulae.",
+"A teaspoon of a pulsar can weigh as much as the largest mountain on Earth.",
+"Everything we know about stars comes from studying their light.",
+"Hydra is the largest of the 88 modern constellations.",
+"A solar flare is a sudden, explosive release of the Sun's magnetic energy that can cause electrical power surges and damage to satellites orbiting Earth.",
+"The inner solar system is the name of the terrestrial planets and asteroid belt.",
+"Many believe that Galileo Galilei invented the telescope but the credit usually goes to Hans Lippershey, a Dutch lensmaker, in 1608.",
+"Almost everything in the universe spins. Planets rotate as do stars and galaxies.",
+"Cursa is the second brightest star in Eridanus and is near Rigel and the Witch Head Nebula.",
+"Sabik is a binary star located in the constellation Ophiuchus, near two prominent southern asterisms, the Teapot, and the Fish Hook.",
+"Lepus is a small consteallation below Orion sometimes represented as a hare being chased by Orion's hunting dogs.",
+"An apsis is the farthest or nearest point in the orbit of a body about its primary body.",
+"Wezen is a yellow-white supergiant star located in the constellation Canis Major. It has stopped fusing hydrogen in its core and within the next 100,000 years it will evolve into a red supergiant.",
+"Nova is the original name for a cataclysmic variable star which irregularly increases in brightness by a large factor, then drops back down to a quiescent state.",
+"Hamal, also known as Alpha Arietis, shines as the brightest star in the constellation Aries the Ram.",
+"The third planet from the Sun, Earth is the only place in the known universe confirmed to host life.",
+"Nunki is a hot blue-white main sequence star located in the constellation Sagittarius, on the handle of the famous teapot asterism".,
+"Vega is an example of a white colored star, with an apprximate temperature of 10,000 K".,
+"The star HD 3167 has three confirmed exoplanets with strange orbits - two planets are in polar orbits (they go aboev and below the star's poles) while the third orbits in the star’s equatorial plane.",
+"Earth has three measured orbital cycles: 100,000-year changes in orbit shape, 41,000-year change sin orbit tilt, and 26,000-years chnages in orbit wobble.",
+"The first image of a black hole was made with the Event Horizon Telescope, 10 years of work by 200 scientists and engineers in 20 countries, using eight of the world's most sensitive radio telescopes.",
+"Two famous crosses in the night sky are the Northern Cross in Cygnus and the the Southern Cross in Crux.",
+"The word 'month' is related to the Moon. It originally measured how long it took for the Moon to complete a cycle around Earth.",
+"The International Year of Astronomy was a year-long celebration of astronomy in 2009 to coincide with the 400th anniversary of the first recorded astronomical observations with a telescope by Galileo.",
+"Saiph is a blue-white supergiant star. Together with the brighter Rigel, Betelgeuse and Bellatrix, it outlines Orion's familiar hourglass pattern.",
+"According to Wikipedia, the solar system's planets, and its most likely dwarf planets, are known to be orbited by at least 219 natural satellites, or moons.",                "", /*curds*/
                 "", /*foxes*/
                 "", /*spiel*/
                 "", /*camps*/
@@ -13886,7 +13907,7 @@
     customElements.define("game-switch", Ps);
     var $s = document.createElement("template");
     $s.innerHTML =
-      '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .s {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n  . {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the <strong>STARDLE</strong> in 6 tries.</p>\n      <p>Each guess must be a valid 5 letter Astronmy themed word. Hit the enter button to submit.</p>\n      <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>\n      <div class="s">\n        <p><strong>Examples</strong></p>\n        <div class="">\n          <div class="row">\n            <game-tile letter="a" evaluation="correct" reveal></game-tile>\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="v"></game-tile>\n            <game-tile letter="e"></game-tile>\n          </div>\n          <p>The letter <strong>A</strong> is in the word and in the right spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="e" evaluation="present" reveal></game-tile>\n            <game-tile letter="l"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="w"></game-tile>\n          </div>\n          <p>The letter <strong>E</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="u"></game-tile>\n            <game-tile letter="n"></game-tile>\n            <game-tile letter="i"></game-tile>\n            <game-tile letter="t" evaluation="absent" reveal></game-tile>\n            <game-tile letter="s"></game-tile>\n          </div>\n          <p>The letter <strong>T</strong> is not in the word in any spot.</p>\n        </div>\n      </div>\n      <p><strong>A new CANUCKLE will be available each day!<strong></p>\n <p>Powered by the original <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">WORDLE</a></p>    </div>\n  </section>\n';
+      '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .s {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n  . {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the <strong>STARDLE</strong> in 6 tries.</p>\n      <p>Each guess must be a valid 5 letter Astronmy themed word. Hit the enter button to submit.</p>\n      <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>\n      <div class="s">\n        <p><strong>Examples</strong></p>\n        <div class="">\n          <div class="row">\n            <game-tile letter="a" evaluation="correct" reveal></game-tile>\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="v"></game-tile>\n            <game-tile letter="e"></game-tile>\n          </div>\n          <p>The letter <strong>A</strong> is in the word and in the right spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="e" evaluation="present" reveal></game-tile>\n            <game-tile letter="l"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="w"></game-tile>\n          </div>\n          <p>The letter <strong>E</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="u"></game-tile>\n            <game-tile letter="n"></game-tile>\n            <game-tile letter="i"></game-tile>\n            <game-tile letter="t" evaluation="absent" reveal></game-tile>\n            <game-tile letter="s"></game-tile>\n          </div>\n          <p>The letter <strong>T</strong> is not in the word in any spot.</p>\n        </div>\n      </div>\n      <p><strong>A new STARDLE will be available each day!<strong></p>\n <p>Powered by the original <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">WORDLE</a></p>    </div>\n  </section>\n';
     var Hs = (function (e) {
       r(t, e);
       var a = h(t);
