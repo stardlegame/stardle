@@ -1759,7 +1759,7 @@
       ],
       Ta = [		/* DICTIONARY WORDS*/
 		"humor",
-        "pause",
+        "pause","alien",
         "ulcer",
         "ultra",
         "robin",
@@ -13814,7 +13814,8 @@
 "The word 'month' is related to the Moon. It originally measured how long it took for the Moon to complete a cycle around Earth.",
 "The International Year of Astronomy was a year-long celebration of astronomy in 2009 to coincide with the 400th anniversary of the first recorded astronomical observations with a telescope by Galileo.",
 "Saiph is a blue-white supergiant star. Together with the brighter Rigel, Betelgeuse and Bellatrix, it outlines Orion's familiar hourglass pattern.",
-"According to Wikipedia, the solar system's planets, and its most likely dwarf planets, are known to be orbited by at least 219 natural satellites, or moons."
+"According to Wikipedia, the solar system's planets, and its most likely dwarf planets, are known to be orbited by at least 219 natural satellites, or moons.",
+			
                 ];
                 if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 236)) {
                   var funFact = funFacts[e.gameApp.dayOffset - 236];  
