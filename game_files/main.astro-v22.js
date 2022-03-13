@@ -1756,7 +1756,7 @@
 "comet",
 "pixel",
 "saros",
-"nadir"	    
+"nadir",	    
 		"proud"  /* JUL 1 END OF CANUCKLE */
       ],
       Ta = [		/* DICTIONARY WORDS*/
