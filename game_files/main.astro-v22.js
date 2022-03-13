@@ -13882,9 +13882,9 @@
 "PRISM is a code name for a United States National Security Agency program that collects communications from various U.S. internet companies.",
 "A flat frame is an image taken with even illumination falling on a camera sensor, used to correct for illumination artifacts such as vignetting and uneven illumination.",
 "Do not buy a telescope that comes in a box boldly proclaiming high magnification power like 625X.",
-"Vesta is thought to be the second largest asteroid, both by mass and by volume, after the dwarf planet Ceres."
+"Vesta is thought to be the second largest asteroid, both by mass and by volume, after the dwarf planet Ceres.",
 "The largest known star in the universe, UY Scuti is a variable hypergiant around 1,700 times larger than the radius of the Sun.",
-"The Virgo Supercluster is a concentration of galaxies.",
+"The Virgo Supercluster is a concentration of galaxies containing at least 100 galaxy groups and clusters and is one of about 10 million superclusters in the observable universe.",
 "The diamond ring effect is the most spectacular feature of the Bailys beads effect during total and annular solar eclipses.",
 "Segin is the left most star in the famous W asterism the northern constellation of Cassiopeia.",
 "The Omega Nebula, in the constellation Sagittarius, is also known as the Swan Nebula, Checkmark Nebula, Lobster Nebula, or Horseshoe Nebula.",
