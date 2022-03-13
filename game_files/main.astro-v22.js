@@ -13585,7 +13585,7 @@
       '\n  <div class="funFact"> <h1>FUN FACT</h1> </div>\n';
     var Is = document.createElement("template");
     Is.innerHTML =
-      '\n  <div class="countdown">\n    <h1>Next STARDLE</h1>\n    <div id="timer">\n      <div class="statistic-container">\n        <div class="statistic timer">\n          <countdown-timer></countdown-timer>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class="share">\n    <button id="share-button">\n      Share <game-icon icon="share"></game-icon>\n    </button>\n  </div>\n';
+      '\n  <div class="countdown">\n    <h1>Next STARDLE</h1>\n    <div id="timer">\n      <div class="statistic-container">\n        <div class="statistic timer">\n          <countdown-timer></countdown-timer>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class="share">\n     </div>\n';
     var Ms = {
         currentStreak: "Current Streak",
         maxStreak: "Max Streak",
