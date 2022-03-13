@@ -13739,25 +13739,25 @@
                       });
                 }
                 var funFacts = [
-                "In Canada, the canoe has long been associated with the fur trade and the romantic figure of the voyageur.", /*canoe*/
-                "Is there a more Canadian word than maple?", /*maple*/
-                "Inuit live throughout most of Northern Canada in the territory of Nunavut.", /*inuit*/
-                "The official tartan for Canada as a whole is known as the Maple leaf tartan.", /*plaid*/
-                "Igloo comes from the Inkuktitu word iglu meaning house.", /*igloo*/
-                "Hoser is a slang word for a Canadian of limited intelligence.", /*hoser*/
-                "Canada produces 71% of the world's maple syrup, 91% of it coming from Quebec.", /*syrup*/
-                "Canadian bacon comes from the loin of the pig instead of the side or belly.", /*bacon*/
-                "Canadians apologize so much, Canada passed the Apology Act in 2009.", /*sorry*/
-                "There are more than 33 species of whale that live in Canada's oceans.", /*whale*/
-                "One of Canada's most famous nicknames is the Great White North.", /*north*/
-                "To American ears, the Canadian pronunciation of about often sounds like aboot.", /*aboot*/
-                "Banff was declared a UNESCO World Heritage Site in 1984.", /*banff*/
-                "About 28 million liters of water travel down Niagara Falls every second.", /*falls*/
-                "The word totem comes from the Algonquian word \"odoodem\" meaning \"his kinship group\".", /*totem*/
-                "Queen Elizabeth was the first monarch to open Parliament in Canada in 1957.", /*queen*/
-                "Loons have beautiful, crimson red eyes, but this is only during mating season.", /*loons*/
-                "The Métis played a vital role in the success of the western fur trade.", /*metis*/
-                "Toque (or tuque) is Canadian slang for a beanie, usually with a pom-pom on top.", /*toque*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
+                "", /*squish*/
                 "", /*canal*/
                 "", /*crude*/
                 "", /*goose*/
