@@ -1225,7 +1225,7 @@
     }
     var Sa = document.createElement("template");
     Sa.innerHTML =
-      '\n  <style>\n  .setting {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-bottom: 1px solid var(--color-tone-4);\n    padding: 16px 0;\n  }\n\n  a, a:visited {\n    color: var(--color-tone-2);\n  }\n\n  .title {\n    font-size: 18px;\n  }\n  .text {\n    padding-right: 8px;\n  }\n  .description {\n    font-size: 12px;\n    color: var(--color-tone-2);\n  }\n\n  #footnote {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    padding: 16px;\n    color: var(--color-tone-2);\n    font-size: 12px;\n    text-align: right;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-end;\n  }\n\n  #privacy-policy,\n  #copyright {\n    text-align: left;\n  }\n\n  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {\n    .setting {\n      padding: 16px;\n    }\n  }\n\n  </style>\n  <div class="sections">\n    <section>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Hard Mode</div>\n          <div class="description">Any revealed hints must be used in subsequent guesses</div>\n        </div>\n        <div class="control">\n          <game-switch id="hard-mode" name="hard-mode"></game-switch>\n        </div>\n      </div>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Dark Theme</div>\n        </div>\n        <div class="control">\n          <game-switch id="dark-theme" name="dark-theme"></game-switch>\n        </div>\n      </div>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Color Blind Mode</div>\n          <div class="description">High contrast colors</div>\n        </div>\n        <div class="control">\n          <game-switch id="color-blind-theme" name="color-blind-theme"></game-switch>\n        </div>\n      </div>\n    </section>\n\n    <section>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Feedback</div>\n        </div>\n        <div class="control">\n         |\n             </div>\n      </div>\n    </section>\n  </div>\n  <div id="footnote">\n    <div>\n      <div id="copyright">Powered by the original <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">WORDLE</a>  and CANUCKLE</div>\n    </div>\n    <div>\n      <div id="puzzle-number"></div>\n      <div id="hash"></div>\n    </div>\n  </div>\n';
+      '\n  <style>\n  .setting {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-bottom: 1px solid var(--color-tone-4);\n    padding: 16px 0;\n  }\n\n  a, a:visited {\n    color: var(--color-tone-2);\n  }\n\n  .title {\n    font-size: 18px;\n  }\n  .text {\n    padding-right: 8px;\n  }\n  .description {\n    font-size: 12px;\n    color: var(--color-tone-2);\n  }\n\n  #footnote {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    padding: 16px;\n    color: var(--color-tone-2);\n    font-size: 12px;\n    text-align: right;\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-end;\n  }\n\n  #privacy-policy,\n  #copyright {\n    text-align: left;\n  }\n\n  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {\n    .setting {\n      padding: 16px;\n    }\n  }\n\n  </style>\n  <div class="sections">\n    <section>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Hard Mode</div>\n          <div class="description">Any revealed hints must be used in subsequent guesses</div>\n        </div>\n        <div class="control">\n          <game-switch id="hard-mode" name="hard-mode"></game-switch>\n        </div>\n      </div>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Dark Theme</div>\n        </div>\n        <div class="control">\n          <game-switch id="dark-theme" name="dark-theme"></game-switch>\n        </div>\n      </div>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Color Blind Mode</div>\n          <div class="description">High contrast colors</div>\n        </div>\n        <div class="control">\n          <game-switch id="color-blind-theme" name="color-blind-theme"></game-switch>\n        </div>\n      </div>\n    </section>\n\n    <section>\n      <div class="setting">\n        <div class="text">\n          <div class="title">Feedback</div>\n        </div>\n        <div class="control">\n         |\n             </div>\n      </div>\n    </section>\n  </div>\n  <div id="footnote">\n    <div>\n      <div id="copyright">Powered by the original <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">WORDLE</a>  and <a href="https://canucklegame.github.io/canuckle/" target="_blank">CANUCKLE</a> </div>\n    </div>\n    <div>\n      <div id="puzzle-number"></div>\n      <div id="hash"></div>\n    </div>\n  </div>\n';
     var _a = (function (e) {
       r(t, e);
       var a = h(t);
@@ -1251,7 +1251,7 @@
                     ? void 0
                     : e.hash),
                 (this.shadowRoot.querySelector("#puzzle-number").textContent =
-                  "#".concat(this.gameApp.dayOffset - 235)),
+                  "#".concat(this.gameApp.dayOffset - 265)),
                 this.shadowRoot.addEventListener(
                   "game-switch-change",
                   function (e) {
@@ -1623,7 +1623,9 @@
         "yukon", /* MAR 9 */
         "polar", /* MAR 10 */
         "bison", /* MAR 11 */
-       "stars",
+"above",
+"below",
+"stars",
 "pluto",
 "skies",
 "focal",
@@ -1638,21 +1640,16 @@
 "space",
 "venus",
 "avert",
-"adara",
-"lupus",
 "baily",
 "knobs",
-"indus",
 "dusty",
 "pyxis",
 "dwarf",
-"image",
 "titan",
 "darks",
 "orion",
 "pulse",
 "light",
-"hours",
 "hydra",
 "flare",
 "inner",
@@ -1682,10 +1679,10 @@
 "wanes",
 "mensa",
 "rocky",
-"zozma",
+"ceres",
 "cloud",
 "umbra",
-"adapt",
+"years",
 "point",
 "round",
 "atlas",
@@ -1704,7 +1701,7 @@
 "shine",
 "solar",
 "minor",
-"major",
+"north",
 "plage",
 "total",
 "align",
@@ -1739,7 +1736,7 @@
 "prism",
 "flats",
 "power",
-"years",
+"vesta",
 "giant",
 "virgo",
 "beads",
@@ -1752,14 +1749,14 @@
 "acrux",
 "right",
 "angle",
-"north",
+"major",
 "night",
 "wasat",
 "plane",
 "comet",
 "pixel",
 "saros",
-"nadir",
+"nadir"	    
 		"proud"  /* JUL 1 END OF CANUCKLE */
       ],
       Ta = [		/* DICTIONARY WORDS*/
@@ -13688,7 +13685,7 @@
                               n = e.isWin,
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Stardle ".concat(s - 235);
+                              l = "Stardle ".concat(s - 265);
                             (l += " ".concat(n ? t : "X", "/").concat(6)),
                               o && (l += "*");
                             var d = "";
@@ -13772,11 +13769,141 @@
                 "", /*yukon*/
                 "", /*polar*/
                 "", /*bison*/
-                "The stars belong to everyone   is a book by Helen Sawyer Hogg.",
-                "Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006.",
-             "next funfact", /*curds*/
-                "", /*foxes*/
-                "", /*spiel*/
+"", /*above*/
+"", /*below*/
+"The Stars Belong To Everyone is a book by Helen Sawyer Hogg, an American-Canadian astronomer who pioneered research into globular clusters and variable stars.",
+"Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006.",
+"Clear skies is a common salutation among amateur astronomers.",
+"Magnification power of a telescope is determined by dividing the focal length of the telescope by the focal length of the eyepiece.",
+"The traditional name Mizar derives from Arabic meaning apron, wrapper, covering, or cover.",
+"Ariel is the fourth-largest of the 27 known moons of Uranus.",
+"The Belt of Venus, a pinkish glow extending above the horizon, is an atmospheric phenomenon visible shortly before sunrise or after sunset, during civil twilight.",
+"A lunar month is the time between two successive syzygies of the same type: new moons or full moons.",
+"Rigel is a blue supergiant star in the constellation of Orion, approximately 860 light-years from Earth.",
+"The Milky Way gets its name from a Greek myth about the goddess Hera who sprayed milk across the sky.",
+"Deneb is the northernmost star in the famous Summer Triangle, a prominent asterism visible in summer and autumn months.",
+"Earths axial precession is a cyclic wobbling in the orientation of its axis of rotation with a period of 25,772 years.",
+"A famous captain once said Space, the final frontier.",
+"Venus rotates backwards compared to the other planets. A day on Venus (243 days) lasts longer than it takes the planet to orbit around the Sun (225 days).",
+"Averted vision is a technique for viewing faint objects using peripheral vision - not looking directly at an object, but looking a little off to the side.",
+"Bailys beads, an arc of bright spots seen during total and annular solar eclipses are named for Francis Baily.",
+"Good quality telescopes and mounts have knobs instead of bolts to make adjustments.",
+"The zodiacal light is a faint, roughly triangular glow visible above the sunrise or sunset point caused by sunlight scattered by interplanetary dust in the solar system.",
+"Pyxis is a small and faint constellation in the southern sky and is home to three stars with confirmed planetary systems.",
+"Dwarf stars have relatively small size and low luminosity, and come in many colors: brown, orange, red, white and yellow.",
+"Titan, the largest moon of Saturn, is the only moon known to have a dense atmosphere, and is the only known place other than Earth having evidence of surface liquid.",
+"A dark frame is an image taken with no light falling on the image sensor and is used to to remove unwanted noise in deep-sky astro images.",
+"Orion is one of the oldest recognized constellations in the world. It contains several famous stars and nebulae.",
+"A teaspoon of a pulsar can weigh as much as the largest mountain on Earth.",
+"Everything we know about stars comes from studying their light.",
+"Hydra is the largest of the 88 modern constellations.",
+"A solar flare is a sudden, explosive release of the Suns magnetic energy that can cause electrical power surges and damage to satellites orbiting Earth.",
+"The inner solar system is the name of the terrestrial planets and asteroid belt.",
+"Many believe that Galileo Galilei invented the telescope but the credit usually goes to Hans Lippershey, a Dutch lens maker, in 1608.",
+"Almost everything in the universe spins. Planets rotate as do stars and galaxies.",
+"Cursa is the second brightest star in Eridanus and is near Rigel and the Witch Head Nebula.",
+"Sabik is a binary star located in the constellation Ophiuchus, near two prominent southern asterisms, the Teapot, and the Fish Hook.",
+"Lepus is a small constellation below Orion sometimes represented as a hare being chased by Orions hunting dogs.",
+"An apsis is the farthest or nearest point in the orbit of a body about its primary body.",
+"Wezen is a yellow-white supergiant star located in the constellation Canis Major. Within the next 100,000 years it will evolve into a red supergiant.",
+"Nova is the original name for a cataclysmic variable star which irregularly increases in brightness by a large factor, then drops back down to a quiescent state.",
+"Hamal, also known as Alpha Arietis, shines as the brightest star in the constellation Aries the Ram.",
+"The third planet from the Sun, Earth is the only place in the known universe confirmed to host life.",
+"Nunki is a hot blue-white main sequence star located in the constellation Sagittarius, on the handle of the famous teapot asterism.",
+"Vega is an example of a white colored star, with an approximate temperature of 10,000 K.",
+"The star HD 3167 has three confirmed exoplanets with strange orbits - two planets are in polar orbits while the third orbits in the star's equatorial plane.",
+"Earth has three measured orbital cycles: 100,000-year changes in orbit shape, 41,000-year changes in orbit tilt, and 26,000-year changes in orbit wobble.",
+"The first image of a black hole took 10 years of work by 200 scientists and engineers in 20 countries, using eight of the most sensitive radio telescopes in the world.",
+"Two famous crosses in the night sky are the Northern Cross in Cygnus and the the Southern Cross in Crux.",
+"The word month is related to the Moon. It originally measured how long it took for the Moon to complete a cycle around Earth.",
+"The International Year of Astronomy was a year-long celebration of astronomy in 2009, the 400th anniversary of the first recorded telescope observations by Galileo.",
+"Saiph is a blue-white supergiant star. Together with the brighter Rigel, Betelgeuse and Bellatrix, it outlines the familiar hourglass pattern in Orion.",
+"According to Wikipedia, the solar systems planets, and its most likely dwarf planets, are known to be orbited by at least 219 natural satellites, or moons.",
+"The Clear Sky Chart is the astronomers forecast. It shows at a glance when, in the next 96 hours, we might expect clear and dark skies for one specific observing site.",
+"Libra is a constellation of the zodiac and its name is Latin for weighing scales.",
+"A node is the intersection of the orbit plane of a celestial body, such as the Moon, with the plane of the ecliptic (the apparent path of the Sun among the stars).",
+"The Moon wanes during the phase between Full Moon and the next New Moon.",
+"Unlike its namesake, Mensa is a particularly dim constellation in the Southern Celestial Hemisphere near the south celestial pole.",
+"Within the Solar System, the terrestrial (or rocky) planets accepted by the IAU are the inner planets closest to the Sun, i.e. Mercury, Venus, Earth and Mars.",
+"Ceres is a dwarf planet (aka asteroid) in the main asteroid belt and  was the first asteroid discovered, on 1 January 1801 by Giuseppe Piazzi.",
+"While clouds are the generally bane of astronomers, noctilucent clouds are actively observed by some during summer months when there is no astronomical darkness.",
+"The umbra (Latin for shadow) is the innermost and darkest part of the Moons shadow during a total solar eclipse.",
+"The idiom light years ahead of means to be a long way ahead of someone or something in terms of development or success.",
+"The zero-point for right ascension is the Vernal Equinox, the location on the celestial equator of sunrise on the first day of spring.",
+"The ancient Greeks proved over 2,000 years ago that the Earth was round and figured out how big it was by using simple observations of the Sun.",
+"Atlas is a spectroscopic binary star in the constellation of Taurus. It is a member of the Pleiades, an open star cluster (M45).",
+"The Leonid meteor storm of 1966 was one of the most stupendous meteor showers ever witnessed, with an estimated 10 to 20 meteors per second!",
+"The focus is the point, or plane, at which light rays from infinity converge after passing through a lens or reflecting off a mirror.",
+"Dione is a small moon orbiting Saturn every 2.7 days at a distance of 377,400 km, roughly the same distance that the Moon orbits around the Earth.",
+"Hadar is a triple star system in the southern constellation of Centaurus.",
+"The Eagle Nebula is an emission nebula in the constellation Serpens. Near center of the nebula are the famous Pillars of Creation imaged Hubble Space Telescope in 1995.",
+"Spica is brightest star in the zodiacal constellation Virgo and one of the 15 brightest in the entire sky.",
+"Mimas is a moon of Saturn that when seen from certain angles resembles the Death Star from Star Wars.",
+"The first detection of radio waves from an astronomical object was in 1933, when Karl Jansky at Bell Telephone Laboratories reported radiation coming from the Milky Way.",
+"Musca is a small constellation in the deep southern sky into which the famous Coalsack Nebula extends.",
+"True field of view is an angular measurement of how much of the sky can be seen through an eyepiece attached to a telescope.",
+"Tidal force is a gravitational effect that stretches a body along the line towards the center of mass of another body, responsible for diverse phenomena including tides.",
+"Alcor is the fainter companion star of Mizar in the middle of the handle of the Big Dipper.",
+"The pale glow on the unlit part of a crescent Moon is light reflected from Earth.",
+"The solar system is 4.6 billion years old and 99.9% of its mass is contained in the Sun.",
+"The Minor Planet Center is responsible for the designation of minor bodies in the solar system: minor planets; comets; and natural satellites.",
+"Polaris is a star in the northern constellation of Ursa Minor and is commonly called the North Star or Pole Star".,
+"A plage is a bright region in the chromosphere of the Sun, typically found in and around active regions. The term is poetically taken from the French word for beach.",
+"The next total solar eclipse visible from North America occurs on April 8, 2024.",
+"Collimation is the process of aligning all components in a telescope to bring light to its best focus.",
+"Nebulae, star clusters and galaxies and often referred to as faint fuzzies because for the most part they are, well, quite faint and fuzzy.",
+"For many people, seeing Saturn and its rings through a telescope for the first time, is a knock your socks off moment.",
+"The Local Group is our galactic neighborhood, consisting of at least 80 member galaxies, most of which are dwarf galaxies around the Milky Way and the Andromeda Galaxy.",
+"Gravity is most accurately described by the general theory of relativity which describes gravity not as a force, but as the curvature of spacetime.",
+"Voyager 1 is the most distant space probe from Earth. As of March 2022, it is about 23 billion km from away.",
+"LASER is an acronym for light amplification by stimulated emission of radiation.",
+"An epoch is a moment in time used as a reference point for some time-varying astronomical quantity such as celestial coordinates or orbital elements.",
+"Adaptive optics s a technology used to improve the performance of a telescope by deforming a mirror in order to compensate for distortion caused by Earths atmosphere.",
+"Sky glow is the diffuse luminance of the night sky - a commonly noticed aspect of light pollution.",
+"The Flame Nebula is an emission nebula in the constellation Orion, located very near the bright star Alnitak, the easternmost star in the Belt of Orion.",
+"A circumpolar star is a star, as viewed from a given latitude on Earth, that never sets below the horizon due to its apparent proximity to one of the celestial poles.",
+"Norma is a small constellation in the Southern Celestial Hemisphere, one of several depicting scientific instruments, in this case a carpenters square.",
+"Cetus is a constellation in the region of the sky that contains other water-related constellations: Aquarius, Pisces and Eridanus.",
+"Sarin is a multiple star system in the constellation of Hercules.",
+"The earliest known photo of an astronomical object, the Moon, was made by J. W. Draper in 1840.",
+"The outer region of the Solar System is home to the giant planets Jupiter, Saturn, Uranus and Neptune.",
+"The Moon waxes during the phase between New Moon and the next Full Moon.",
+"The celestial poles are the two imaginary points in the sky where the projection of the Earths rotation axis intersects with the celestial sphere.",
+"The Andromeda Galaxy is the furthest object one can see with the naked eye, about 2.5m light years distant.",
+"The speed of lights is fast! Sunlight takes about 8 minutes and 17 seconds to travel from the Sun to Earth (using the average distance).",
+"Draco is a constellation in the far northern sky. Draco was the first recorded legislator of Athens in Ancient Greece.",
+"The First Point of Aries is the location of the vernal (March) equinox, used as the zero point in celestial coordinate systems.",
+"A gas giant planet like Jupiter or Saturn is mostly composed of helium or hydrogen. These planets do not have hard surfaces but have swirling gases above a solid core.",
+"Algol, known colloquially as the Demon Star, is a famous variable star in the constellation of Perseus.",
+"Astronomers use redshift and blueshift to deduce how far an object is away from Earth, the concept is key to charting the universes expansion.",
+"Limb darkening is an optical effect seen in the Sun (and a few other stars like Betelgeuse), where the central part of the disk appears brighter than the edge, or limb.",
+"Like the Moon, the planets Mercury and Venus, also exhibit phases when viewed from Earth.",
+"Mike Lockwood once made a 14.5 inch astronomical mirror with a very fast focal ratio of 2.55!",
+"PRISM is a code name for a United States National Security Agency program that collects communications from various U.S. internet companies.",
+"A flat frame is an image taken with even illumination falling on a camera sensor, used to correct for illumination artifacts such as vignetting and uneven illumination.",
+"Do not buy a telescope that comes in a box boldly proclaiming high magnification power like 625X.",
+"Vesta is thought to be the second largest asteroid, both by mass and by volume, after the dwarf planet Ceres."
+"The largest known star in the universe, UY Scuti is a variable hypergiant around 1,700 times larger than the radius of the Sun.",
+"The Virgo Supercluster is a concentration of galaxies containing at least 100 galaxy groups and clusters and is one of about 10 million superclusters in the observable universe.",
+"The diamond ring effect is the most spectacular feature of the Bailys beads effect during total and annular solar eclipses.",
+"Segin is the left most star in the famous W asterism the northern constellation of Cassiopeia.",
+"The Omega Nebula, in the constellation Sagittarius, is also known as the Swan Nebula, Checkmark Nebula, Lobster Nebula, or Horseshoe Nebula.",
+"ALMA was the first telescope to peer inside the almost inscrutable protoplanetary disks surrounding young stars and watch planets forming.",
+"Currently, there is no South Star as useful as Polaris. Polaris Australis is the closest naked-eye star to the south celestial pole, but it is much dimmer than Polaris.",
+"The mount and tube structure of the Extremely Large Telescope will have a total moving mass of around 3700 tonnes.",
+"Lunar maria are large, dark plains on the Moon, formed by ancient asteroid impacts, and dubbed maria (Latin for seas), by early astronomers who mistook them for actual seas.",
+"Acrux is a multiple star system 321 light years from the Sun in the constellation of Crux. It is the most southerly star of the asterism known as the Southern Cross.",
+"Right ascension is the celestial equivalent of terrestrial longitude. Both right ascension and longitude measure an angle from a zero point on an equator.",
+"The nearest star, Proxima Centauri, has a stellar parallax angle of 0.03 arc sec. The smallest parallax angle currently measurable is about 0.001 arc sec.",
+"Ursa Major is a constellation that contains one of the most famous asterisms in the night sky - the Big Dipper.",
+"It is estimated that the Milky Way is no longer visible to fully one third of humanity because artificial light from cities has created a permanent skyglow at night.",
+"Wasat is a triple star system in the constellation of Gemini.",
+"The ecliptic is the plane of Earths orbit around the Sun. Earths equatorial plane is inclined to the ecliptic plane by an angle of about 23.4 degrees.",
+"Comets are like cats: they have tails, and they do precisely what they want. -- David Levy.",
+"The word pixel is a combination of pix (from pictures, shortened to pics or pix) and el (for element).",
+"The saros is a period of about 18 years that can be used to predict eclipses of the Sun and Moon.",
+"The nadir is the point on the celestial sphere directly below an observer. It is also the last Stardle word.",			
+               "", /*spiel*/
                 "", /*camps*/
                 "", /*rodeo*/
                 "", /*trade*/
@@ -13862,7 +13989,7 @@
     customElements.define("game-switch", Ps);
     var $s = document.createElement("template");
     $s.innerHTML =
-      '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .s {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n  . {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the <strong>STARDLE</strong> in 6 tries.</p>\n      <p>Each guess must be a valid 5 letter Astronmy themed word. Hit the enter button to submit.</p>\n      <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>\n      <div class="s">\n        <p><strong>Examples</strong></p>\n        <div class="">\n          <div class="row">\n            <game-tile letter="a" evaluation="correct" reveal></game-tile>\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="v"></game-tile>\n            <game-tile letter="e"></game-tile>\n          </div>\n          <p>The letter <strong>A</strong> is in the word and in the right spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="e" evaluation="present" reveal></game-tile>\n            <game-tile letter="l"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="w"></game-tile>\n          </div>\n          <p>The letter <strong>E</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="u"></game-tile>\n            <game-tile letter="n"></game-tile>\n            <game-tile letter="i"></game-tile>\n            <game-tile letter="t" evaluation="absent" reveal></game-tile>\n            <game-tile letter="s"></game-tile>\n          </div>\n          <p>The letter <strong>T</strong> is not in the word in any spot.</p>\n        </div>\n      </div>\n      <p><strong>A new STARDLE will be available each day!<strong></p>\n <p>Powered by the original <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">WORDLE</a> and CANUCKLE</p>    </div>\n  </section>\n';
+      '\n  <style>\n  .instructions {\n    font-size: 14px;\n    color: var(--color-tone-1)\n  }\n\n  .s {\n    border-bottom: 1px solid var(--color-tone-4);\n    border-top: 1px solid var(--color-tone-4);\n  }\n\n  . {\n    margin-top: 24px;\n    margin-bottom: 24px;\n  }\n\n  game-tile {\n    width: 40px;\n    height: 40px;\n  }\n\n  :host([page]) section {\n    padding: 16px;\n    padding-top: 0px;\n  }\n\n  </style>\n  <section>\n    <div class="instructions">\n      <p>Guess the <strong>STARDLE</strong> in 6 tries.</p>\n      <p>Each guess must be a valid 5 letter Astronomy themed word. Hit the enter button to submit.</p>\n      <p>After each guess, the color of the tiles will change to show how close your guess was to the word.</p>\n      <div class="s">\n        <p><strong>Examples</strong></p>\n        <div class="">\n          <div class="row">\n            <game-tile letter="a" evaluation="correct" reveal></game-tile>\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="v"></game-tile>\n            <game-tile letter="e"></game-tile>\n          </div>\n          <p>The letter <strong>A</strong> is in the word and in the right spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="b"></game-tile>\n            <game-tile letter="e" evaluation="present" reveal></game-tile>\n            <game-tile letter="l"></game-tile>\n            <game-tile letter="o"></game-tile>\n            <game-tile letter="w"></game-tile>\n          </div>\n          <p>The letter <strong>E</strong> is in the word but in the wrong spot.</p>\n        </div>\n        <div class="">\n          <div class="row">\n            <game-tile letter="u"></game-tile>\n            <game-tile letter="n"></game-tile>\n            <game-tile letter="i"></game-tile>\n            <game-tile letter="t" evaluation="absent" reveal></game-tile>\n            <game-tile letter="s"></game-tile>\n          </div>\n          <p>The letter <strong>T</strong> is not in the word in any spot.</p>\n        </div>\n      </div>\n      <p><strong>A new STARDLE will be available each day!<strong></p>\n <p>Powered by the original <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank">WORDLE</a> and <a href="https://canucklegame.github.io/canuckle/" target="_blank">CANUCKLE</a> </p>    </div>\n  </section>\n';
     var Hs = (function (e) {
       r(t, e);
       var a = h(t);
