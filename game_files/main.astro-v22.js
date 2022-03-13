@@ -12990,9 +12990,9 @@
                 }
                 this.$game.addEventListener("game-key-press", function (a) {
                   var s = a.detail.key;
-                  "?" === s || "Backspace" === s
+                  "←" === s || "Backspace" === s
                     ? e.removeLetter()
-                    : "?" === s || "Enter" === s
+                    : "↵" === s || "Enter" === s
                     ? e.submitGuess()
                     : Ba.includes(s.toLowerCase()) &&
                       e.addLetter(s.toLowerCase());
@@ -13169,7 +13169,7 @@
     var ds = [
         ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
         ["-", "a", "s", "d", "f", "g", "h", "j", "k", "l", "-"],
-        ["?", "z", "x", "c", "v", "b", "n", "m", "?"],
+        ["↵", "z", "x", "c", "v", "b", "n", "m", "←"],
       ],
       us = (function (e) {
         r(t, e);
@@ -13244,15 +13244,15 @@
                         var a;
                         if (
                           (e >= "a" && e <= "z") ||
-                          "?" === e ||
-                          "?" === e
+                          "←" === e ||
+                          "↵" === e
                         ) {
                           if (
                             (((a = is.content.cloneNode(
                               !0
                             ).firstElementChild).dataset.key = e),
                             (a.textContent = e),
-                            "?" === e)
+                            "←" === e)
                           ) {
                             var t = document.createElement("game-icon");
                             t.setAttribute("icon", "backspace"),
@@ -13260,7 +13260,7 @@
                               a.appendChild(t),
                               a.classList.add("one-and-a-half");
                           }
-                          "?" == e &&
+                          "↵" == e &&
                             ((a.textContent = "enter"),
                             a.classList.add("one-and-a-half"));
                         } else (a = ls.content.cloneNode(!0).firstElementChild).classList.add(1 === e.length ? "half" : "one");
