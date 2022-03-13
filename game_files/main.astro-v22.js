@@ -13773,7 +13773,7 @@
                 "", /*polar*/
                 "", /*bison*/
                 "The stars belong to everyone   is a book by Helen Sawyer Hogg.",
-                "Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006.",
+                "Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006 123456789 123456789 123456789 123465798 123456789 132465789 13456789 123456789.",
              "", /*curds*/
                 "", /*foxes*/
                 "", /*spiel*/
