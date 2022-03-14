@@ -13770,7 +13770,7 @@
                 "", /*polar*/
                 "", /*bison*/
 "", /*above*/
-"", /*below*/
+"sun", /*below*/
 "The Stars Belong To Everyone is a book by Helen Sawyer Hogg, an American-Canadian astronomer who pioneered research into globular clusters and variable stars.",
 "Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006.",
 "Clear skies is a common salutation among amateur astronomers.",
