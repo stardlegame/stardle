@@ -13912,8 +13912,8 @@
                 "", /*shore*/
                 "" /*merci*/
                 ];
-                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 266)) {
-                  var funFact = funFacts[e.gameApp.dayOffset - 266];  
+                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 236)) {
+                  var funFact = funFacts[e.gameApp.dayOffset - 236];  
 
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
