@@ -16040,7 +16040,7 @@
 "Unlike its namesake, Mensa is a particularly dim constellation in the Southern Celestial Hemisphere near the south celestial pole.",
 "Within the Solar System, the terrestrial (or rocky) planets accepted by the IAU are the inner planets closest to the Sun, i.e. Mercury, Venus, Earth and Mars.",
 "Ceres is a dwarf planet (aka asteroid) in the main asteroid belt and  was the first asteroid discovered, on 1 January 1801 by Giuseppe Piazzi.",
-"While clouds are the generally bane of astronomers, noctilucent clouds are actively observed by some during summer months when there is no astronomical darkness.",
+"While clouds are the generally bane of astronomers, noctilucent clouds are actively observed by some during summer months when there is no astronomical darkness.While clouds are the generally bane of astronomers, noctilucent clouds are actively observed by some during summer months when there is no astronomical darkness.While clouds are the generally bane of astronomers, noctilucent clouds are actively observed by some during summer months when there is no astronomical darkness.",
 "The umbra (Latin for shadow) is the innermost and darkest part of the Moons shadow during a total solar eclipse.",
 "The idiom light years ahead of means to be a long way ahead of someone or something in terms of development or success.",
 "The zero-point for right ascension is the Vernal Equinox, the location on the celestial equator of sunrise on the first day of spring.",
