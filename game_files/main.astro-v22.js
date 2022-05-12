@@ -16082,6 +16082,7 @@
 "Within the Solar System, the terrestrial (or rocky) planets accepted by the IAU are the inner planets closest to the Sun, i.e. Mercury, Venus, Earth and Mars.",
 "Ceres is a dwarf planet (aka asteroid) in the main asteroid belt and  was the first asteroid discovered, on 1 January 1801 by Giuseppe Piazzi.",
 "While clouds are the generally bane of astronomers, noctilucent clouds are actively observed by some during summer months when there is no astronomical darkness.",
+"The umbra (Latin for shadow) is the innermost and darkest part of the Moons shadow during a total solar eclipse.",
 "Because waves seemed to require a medium such as water or air to move through, it was once assumed that the universe was filled with ether to allow light to propagate.  Ether's existence was disproved in 1887, but its concept played an important role in the advancement of astronomy and physics.",
 "The celestial poles are the two imaginary points in the sky where the projection of the Earth's rotation axis intersects with the celestial sphere.",
 "The earthbound rille is called a graben, where parallel faults form as terrain is pulled apart and drops. The Moon's Ariadaeus rille is a spectacular sight through a telescope in good lighting conditions.",
