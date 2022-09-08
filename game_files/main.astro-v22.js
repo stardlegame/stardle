@@ -1251,7 +1251,7 @@
                     ? void 0
                     : e.hash),
                 (this.shadowRoot.querySelector("#puzzle-number").textContent =
-                  "#".concat(this.gameApp.dayOffset - 265)),
+                  "#".concat(this.gameApp.dayOffset - 441)),
                 this.shadowRoot.addEventListener(
                   "game-switch-change",
                   function (e) {
@@ -1357,42 +1357,6 @@
       debug_mode: !1,
     });
     var La = [
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",	    
-"",
 "skies",
 "focal",
 "mizar",
@@ -15703,7 +15667,7 @@
                               n = e.isWin,
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Stardle ".concat(s - 265);
+                              l = "Stardle ".concat(s - 441);
                             (l += " ".concat(n ? t : "X", "/").concat(6)),
                               o && (l += "*");
                             var d = "";
@@ -15757,42 +15721,6 @@
                       });
                 }
                 var funFacts = [
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",
-"",	    
-"",	
 "Clear skies is a common salutation among amateur astronomers.",
 "Magnification power of a telescope is determined by dividing the focal length of the telescope by the focal length of the eyepiece.",
 "The traditional name Mizar derives from Arabic meaning apron, wrapper, covering, or cover.",
@@ -15970,8 +15898,8 @@
 "Star brightnesses in each constellation follow the Greek alphabet, alpha being the brightest (e.g., alpha Lyrae is Vega). There are exceptions to this rule.",
 "The nadir is the point on the celestial sphere directly below an observer. It is also the last Stardle word."
                 ];
-                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 236)) {
-                  var funFact = funFacts[e.gameApp.dayOffset - 236];  
+                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 412)) {
+                  var funFact = funFacts[e.gameApp.dayOffset - 412];  
 
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
