@@ -15898,8 +15898,8 @@
 "Star brightnesses in each constellation follow the Greek alphabet, alpha being the brightest (e.g., alpha Lyrae is Vega). There are exceptions to this rule.",
 "The nadir is the point on the celestial sphere directly below an observer. It is also the last Stardle word."
                 ];
-                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 382)) {
-                  var funFact = funFacts[e.gameApp.dayOffset - 382];  
+                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 352)) {
+                  var funFact = funFacts[e.gameApp.dayOffset - 352];  
 
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
