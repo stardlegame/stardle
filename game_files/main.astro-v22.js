@@ -1251,7 +1251,7 @@
                     ? void 0
                     : e.hash),
                 (this.shadowRoot.querySelector("#puzzle-number").textContent =
-                  "#".concat(this.gameApp.dayOffset - 229)),
+                  "#".concat(this.gameApp.dayOffset - 139)),
                 this.shadowRoot.addEventListener(
                   "game-switch-change",
                   function (e) {
@@ -15667,7 +15667,7 @@
                               n = e.isWin,
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Stardle ".concat(s - 229);
+                              l = "Stardle ".concat(s - 139);
                             (l += " ".concat(n ? t : "X", "/").concat(6)),
                               o && (l += "*");
                             var d = "";
@@ -15898,8 +15898,8 @@
 "Star brightnesses in each constellation follow the Greek alphabet, alpha being the brightest (e.g., alpha Lyrae is Vega). There are exceptions to this rule.",
 "The nadir is the point on the celestial sphere directly below an observer. It is also the last Stardle word."
                 ];
-                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 200)) {
-                  var funFact = funFacts[e.gameApp.dayOffset - 200];  
+                if ((e.gameApp.gameStatus == "WIN" || e.gameApp.gameStatus == "FAIL") && funFacts.length > (e.gameApp.dayOffset - 139)) {
+                  var funFact = funFacts[e.gameApp.dayOffset - 139];  
 
                   if (funFact != "") {
                     this.shadowRoot.appendChild(FFs.content.cloneNode(!0));
