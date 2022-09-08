@@ -1251,7 +1251,7 @@
                     ? void 0
                     : e.hash),
                 (this.shadowRoot.querySelector("#puzzle-number").textContent =
-                  "#".concat(this.gameApp.dayOffset - 265)),
+                  "#".concat(this.gameApp.dayOffset - 176)),
                 this.shadowRoot.addEventListener(
                   "game-switch-change",
                   function (e) {
@@ -15671,7 +15671,7 @@
                               n = e.isWin,
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Stardle ".concat(s - 265);
+                              l = "Stardle ".concat(s - 176);
                             (l += " ".concat(n ? t : "X", "/").concat(6)),
                               o && (l += "*");
                             var d = "";
