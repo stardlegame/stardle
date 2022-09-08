@@ -1251,7 +1251,7 @@
                     ? void 0
                     : e.hash),
                 (this.shadowRoot.querySelector("#puzzle-number").textContent =
-                  "#".concat(this.gameApp.dayOffset - 93)),
+                  "#".concat(this.gameApp.dayOffset - 265)),
                 this.shadowRoot.addEventListener(
                   "game-switch-change",
                   function (e) {
@@ -1357,10 +1357,6 @@
       debug_mode: !1,
     });
     var La = [
-"above",
-"below",
-"dream",
-"allan",
 "skies",
 "focal",
 "mizar",
@@ -15671,7 +15667,7 @@
                               n = e.isWin,
                               r = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Stardle ".concat(s - 93);
+                              l = "Stardle ".concat(s - 265);
                             (l += " ".concat(n ? t : "X", "/").concat(6)),
                               o && (l += "*");
                             var d = "";
@@ -15725,10 +15721,6 @@
                       });
                 }
                 var funFacts = [
-"above", /*above*/
-"sun", /*below*/
-"The Stars Belong To Everyone is a book by Helen Sawyer Hogg, an American-Canadian astronomer who pioneered research into globular clusters and variable stars.",
-"Pluto was re-classified as a dwarf planet by the International Astronomical Union in 2006.",
 "Clear skies is a common salutation among amateur astronomers.",
 "Magnification power of a telescope is determined by dividing the focal length of the telescope by the focal length of the eyepiece.",
 "The traditional name Mizar derives from Arabic meaning apron, wrapper, covering, or cover.",
